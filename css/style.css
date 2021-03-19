@@ -1,0 +1,139 @@
+.box{
+
+	position: absolute;
+	top: 20%;
+	right: 12%;
+	padding: 2%;
+	border: 2px solid black;
+}
+
+form button a{
+	color: white;
+}
+
+.form-check{
+	display: inline-block;
+}
+
+.nav-link{
+	color: #506690;
+
+}
+.nav-item{
+	padding: 1%;
+	display: inline-block;
+}
+.active{
+	color: blue;
+}
+.logo{
+	font-size: 26px;
+	display: inline-block;
+	color: blue;
+	font-weight: bold;
+	padding: 2%;
+	margin-left: 15%;
+}
+.nav{
+	width: 30%;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.btn{
+	padding: 0.7% 1%;
+	background-color: blue;
+	font-size: 18px;
+	border-radius: 10px;
+	font-weight: 600;
+
+}
+.middle1{
+	position: relative;
+	top: 50px;
+	line-height: 2rem;
+	padding-left: 7%;
+}
+.middle1 h1{
+	font-weight: 350;
+	line-height: 1.2;
+	letter-spacing: -.02em;
+	font-size: 3rem;
+}
+.middle1 h1 a:hover{
+	text-decoration: none;
+}
+.middle1 p,section p{
+	color: #869ab8;
+	line-height: 1.4
+}
+
+
+.container img{
+	width: 100%;
+	height: 100%;
+}
+
+.btn-primary a{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+section .container img{
+	margin-bottom: 12px;
+	width: 12%;
+	height: 20%;
+}
+section{
+	margin-left: 8.5%;
+	font-weight: 400;
+}
+
+section h4{
+	color: #161c2d;
+}
+ 
+section .col-12 img{
+	width: 100%;
+	height: 70%;
+	margin-top: 8%;
+	padding-bottom: 10%;
+}
+ 
+ footer .fotcon{
+ 	margin-left: 40%;
+
+ }
+
+ footer{
+ 	background-color: #8F00FF;
+ 	color: white;
+ }
+
+ footer .fas, .fab{
+ 	padding-left: 12%;
+
+ }
+
+ @media only screen and (min-width: 300px) and (max-width: 600px){
+ 	.logo{
+	font-size: 8px;
+	padding: 0.1%;
+	margin-left: 1%;
+}
+.nav{
+	width: 60%;
+	margin-right: 2%;
+}
+.nav-item{
+	padding: 0;
+	font-size: 10px;
+}
+.btn{
+	padding: 0.1%;
+	margin-right: 0;
+	font-size: 8px;
+}
+
+ }
